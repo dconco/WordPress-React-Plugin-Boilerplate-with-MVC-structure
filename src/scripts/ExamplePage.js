@@ -9,7 +9,7 @@ function ExamplePage(props) {
     <div className="w-full">
       <div className="w-[55%] m-auto py-2 px-2 border border-sm  flex flex-col  justify-center items-center shadom-sm gap-3 h-60">
         <h2 className="text-lg font-sans text-blue-400">
-          WordPress React Plugin with MVC Architecture
+          WordPress React Plugin Boilerplate with MVC Structure
         </h2>
 
         <div className="w-full flex  flex-row items-center ">
