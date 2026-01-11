@@ -12,6 +12,9 @@ return new App(require "$viewPath/layout/Layout.php")
     ->attach(require "$viewPath/Home.php")
     ->attach(require "$viewPath/Stories.php")
 
+    // --- API Routes ---
+    ->prefix('/api', require __DIR__ . '/routes/api.php')
+
     ->defaultTargetID('great-react-root')
 
     // --- Global Script ---

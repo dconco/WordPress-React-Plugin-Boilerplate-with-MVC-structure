@@ -1,8 +1,6 @@
 <?php
 defined('ABSPATH') or die('You are not allowed to access this page');
 
-require_once plugin_dir_path(__FILE__) . 'Controller/viewController.php';
-
 class Great_React_Plugin
 {
     public function __construct()
