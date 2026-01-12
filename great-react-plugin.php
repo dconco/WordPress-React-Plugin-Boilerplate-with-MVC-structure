@@ -1,4 +1,14 @@
 <?php
+
+/**
+ * Plugin Name: Great React PLUGIN
+ * Author: Stephen Okpeku
+ * Description: WordPress React Plugin Boilerplate with MVC Structure
+ * Version: 1.0
+ * Text Domain: Great React PLUGIN
+ * Text Domain: Great React PLUGIN
+ */
+
 defined('ABSPATH') or die('You are not allowed to access this page');
 
 require_once plugin_dir_path(__FILE__) . 'Controller/viewController.php';
